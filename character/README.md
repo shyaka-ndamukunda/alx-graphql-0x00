@@ -16,3 +16,24 @@ This task demonstrates how to write a GraphQL query to fetch the details of a sp
 **Query Details:**
 
 The queries use the `character(id: ID!)` field to retrieve data. The fields requested for each character are `id`, `name`, `status`, `species`, `type`, and `gender`.
+
+---
+
+### Task 1: GraphQL Query to Get a List of All Characters
+
+This task demonstrates how to write a paginated GraphQL query to fetch a list of all characters.
+
+**Files:**
+
+- `characters-page-1.graphql`: Contains the GraphQL query for character page 1.
+- `characters-page-1-output.json`: The expected JSON response for character page 1.
+- `characters-page-2.graphql`: Contains the GraphQL query for character page 2.
+- `characters-page-2-output.json`: The expected JSON response for character page 2.
+- `characters-page-3.graphql`: Contains the GraphQL query for character page 3.
+- `characters-page-3-output.json`: The expected JSON response for character page 3.
+- `characters-page-4.graphql`: Contains the GraphQL query for character page 4.
+- `characters-page-4-output.json`: The expected JSON response for character page 4.
+
+**Query Details:**
+
+The queries use the `characters(page: Int)` field to retrieve paginated data. The fields requested for each character are `id`, `name`, `status`, and `image`.

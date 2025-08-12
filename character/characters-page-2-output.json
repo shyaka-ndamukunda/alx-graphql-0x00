@@ -1,0 +1,32 @@
+{
+  "data": {
+    "characters": {
+      "results": [
+        {
+          "id": "21",
+          "name": "Aqua Morty",
+          "status": "Unknown",
+          "image": "https://rickandmortyapi.com/api/character/avatar/21.jpeg"
+        },
+        {
+          "id": "22",
+          "name": "Aqua Rick",
+          "status": "Unknown",
+          "image": "https://rickandmortyapi.com/api/character/avatar/22.jpeg"
+        },
+        {
+          "id": "23",
+          "name": "Arcade Alien",
+          "status": "Unknown",
+          "image": "https://rickandmortyapi.com/api/character/avatar/23.jpeg"
+        },
+        {
+          "id": "24",
+          "name": "Armagheadon",
+          "status": "Alive",
+          "image": "https://rickandmortyapi.com/api/character/avatar/24.jpeg"
+        }
+      ]
+    }
+  }
+}
