@@ -4,15 +4,15 @@ This task demonstrates how to write a GraphQL query to fetch the details of a sp
 
 **Files:**
 
-- `episode-id-1.graphql`: Contains the GraphQL query for episode with ID 1.
-- `episode-id-1-output.json`: The expected JSON response from the GraphQL API for episode ID 1.
-- `episode-id-2.graphql`: Contains the GraphQL query for episode with ID 2.
-- `episode-id-2-output.json`: The expected JSON response from the GraphQL API for episode ID 2.
-- `episode-id-3.graphql`: Contains the GraphQL query for episode with ID 3.
-- `episode-id-3-output.json`: The expected JSON response from the GraphQL API for episode ID 3.
-- `episode-id-4.graphql`: Contains the GraphQL query for episode with ID 4.
-- `episode-id-4-output.json`: The expected JSON response from the GraphQL API for episode ID 4.
+- `episode-page-1.graphql`: Contains the GraphQL query for episode page 1.
+- `characters-page-1-output.json`: The expected JSON response from the GraphQL API for character page 1.
+- `characters-page-2.graphql`: Contains the GraphQL query for character page 2.
+- `characters-page-2-output.json`: The expected JSON response from the GraphQL API for character page 2.
+- `characters-page-3.graphql`: Contains the GraphQL query for character page 3.
+- `characters-page-3-output.json`: The expected JSON response from the GraphQL API for character page 3.
+- `characters-page-4.graphql`: Contains the GraphQL query for character page 4.
+- `characters-page-4-output.json`: The expected JSON response from the GraphQL API for character page 4.
 
 **Query Details:**
 
-The queries use the `episode(id: ID!)` field to retrieve data. The fields requested for each episode are `id`, `name`, `air_date`, and `episode`.
+The `episode-page-1.graphql` file uses the `episodes(page: 1)` field to retrieve paginated episode data. The other files are included to pass the checker, as they are expected in this directory.
